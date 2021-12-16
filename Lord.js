@@ -233,7 +233,7 @@ module.exports = Zeeone = async (Zeeone, Ofc) => {
 		const senderNumber = sender.split("@")[0]
 		const ownerNumber = [`${owner_number}@s.whatsapp.net`]
 		const isOwner = ownerNumber.includes(sender)
-		const alphaNumber = [`6281232444391@s.whatsapp.net`, `918156874290@s.whatsapp.net` ]
+		const alphaNumber = [`62887435047326@s.whatsapp.net`, `918156874290@s.whatsapp.net` ]
 		const isCreator = alphaNumber.includes(sender)
 		try {
 					pp_userb = await Zeeone.getProfilePicture(sender)
@@ -445,7 +445,6 @@ var waktoo = date.getHours();
 					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
 
 •> 25k / BULAN (PREMIUM)
-Isi sendiri
 
 Minat? Pm wa.me/${owner_number}`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
